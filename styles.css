@@ -1,0 +1,266 @@
+
+@media screen and (min-width: 48em) {
+	.logo1 {
+		max-width: 700px;
+	}
+}
+
+.logo1 {
+   
+    max-height: 160px;
+    width: auto;
+    padding: 10px;
+}
+
+
+.centered1 {
+    
+    font-size: 20px;
+    
+  }
+
+  
+.centered2 {
+    
+    font-size: 14px;
+    
+  }
+
+  .centered3 {
+    
+    background-color: #2a697b;
+    max-width: auto;
+    max-height: 800px;
+    padding: 60px; 
+    
+  }
+
+  @media screen and (min-width: 801px) {
+    .carousel-caption{
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .carousel-caption {
+      font-size: 15px;
+    }
+  }
+ 
+  @media screen and (min-width: 801px) {
+    .centered1{
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .centered1 {
+      font-size: 15px;
+    }
+  }
+  
+  
+  .sz {
+    max-width:100%;
+    height:auto;
+  }
+
+  .sz1 {
+    max-width:30%;
+    height:auto;
+    
+  }
+.ups{
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-55%, -55%);
+  
+}
+
+@media screen and (max-width: 300px) { 
+    .btn, .ups { 
+        width: 10wv;
+    } 
+} 
+  .forms1
+  {
+
+    display: block;
+    border: none;
+    border-bottom: 1px solid;
+    
+    border-bottom-style: solid;
+    width: 400px;
+    
+  
+  }
+
+.btn {
+background:  deeppink;
+color: white;
+width: 160px;
+
+}
+
+.text-p {
+    color: white;
+}
+
+
+.minip{
+    font-size: 10px;
+}
+
+/* Show green borders when valid */
+input[data-state="valid"] {
+    border-color: #1fe01f;
+  }
+  
+  /* Show red borders when filled, but invalid */
+  input[data-state="invalid"] {
+    border-color: deeppink;
+  }
+
+
+input,
+textarea {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+@media screen and (min-width: 601px) {
+    .text-p{
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .text-p {
+      font-size: 12px;
+    }
+  }
+/*the label*/
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /*checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container1:hover input ~ .checkmark {
+    background-color: #ccc;
+    border: 1px solid;
+  }
+  
+  /* When the checkbox is checked, add a deeppink background */
+  .container1 input:checked ~ .checkmark {
+    background-color: deeppink;
+  }
+  
+  /*checkmark/indicator */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  .container1 .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /*FOOTER*/
+
+footer {
+    background: #252A2B;
+   
+    color: white;
+    
+    max-width: auto;
+    max-height: 800px;
+    padding: 60px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+   
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    position: relative;
+  left: 804px;
+  max-width:100%;
+  height: auto;
+
+  }
+  
+  ul.social-network li {
+    
+    margin: 0 5px;
+  }
+  
+  
